@@ -50,7 +50,6 @@ void main() {
 
   // Bitwise Operator (optional / jarang dipake)
 
-
   // Unary Operator
   var unaryValue = 20;
   print(-unaryValue);
@@ -59,9 +58,13 @@ void main() {
   print(--unaryValue);
   print(!true);
 
+  // Null-aware Operator
+  String? nullAware = "Not Null";
+  print(nullAware ?? "Null");
 
   // Null-aware Operator
-
+  String? nullAware2 = null;
+  print(nullAware2 ?? "Not Null");
 
 }
 
