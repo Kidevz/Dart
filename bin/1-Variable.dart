@@ -15,7 +15,6 @@ void main() {
   var castIntToString = age.toString();
   int ageFromString = int.parse(ageAsString);
 
-
   // Constants
   final pet = "cat"; // final
   const country = "indonesia"; // const
