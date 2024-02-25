@@ -14,6 +14,9 @@ class Animal {
 
 class Fish extends Animal {
 
+  // Basic Constructor
+  Fish(super.name);
+
   Fish.shortForm(super.name);
   // same way
   Fish.longForm(String name): super(name);
